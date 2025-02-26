@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QUIZ2</title>
+  <!-- SETUP BOOTSTRAP: link to Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- link to JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- Add style -->
+  <link rel="stylesheet" type="text/css" href="style.css">  
+</head>
+<body>
+<br>
+<!-- FIRST -->
+  <div class="container">
+  <h1>Ticketing Center</h1>
+<hr>
+
+  <details ontoggle="alert('The ontoggle event  just got triggered')">
+    <summary>
+      INSTRUCTIONS
+    </summary>
+    
+  <h6>Fill out the form below.</h6>
+<br>
+  
+      <form>
+    <label>Complete Name</label>
+<br>
+    <input type="text" id="name">
+<br>
+<br>
+
+    <label>Email</label>
+<br>
+    <input type="text" id="name">   
+<br>
+<br>
+    <button type="submit" id="color-change" class="btn btn-primary">SUBMIT</button>  
+  </details>
+      </form>
+
+ <!-- SECOND -->
+ <br>
+ <br>
+  <details ontoggle="alert('The ontoggle event  just got triggered')">
+    <summary>
+    TICKET PRICE
+    </summary>
+    
+  <h6>Check your ticket price.</h6>
+<br>
+  
+  <form>
+    <label>Choose your seat:</label>
+    <br>
+    <select>
+        <option value="Back">Back</option>
+        <option value="Front">Front</option>
+    </select>
+<br>
+<br>
+
+    <label>Choose an option:</label>
+<br>
+       <select>
+        <option value="Regular">Regular</option>
+        <option value="Non-regular">Non-regular</option>
+       </select>
+<br>
+<br>
+    <button type="submit" id="color-change"class="btn btn-primary">SUBMIT</button> 
+  </details>
+  </form>
+
+<!-- THIRD -->
+<br>
+<br>
+  <details ontoggle="alert('The ontoggle event  just got triggered')">
+    <summary>
+      PRINT TICKET
+    </summary>
+    
+  <h6>Select your ticket.</h6>
+<br>
+  <form>
+   <img src="gold.jpg" width="250">
+    
+<br>
+<br>
+    <button type="submit" id="color-change" class="btn btn-primary">SUBMIT</button> 
+    <button 
+    type="button" 
+    id="color-change"
+    class="btn btn-primary"
+    onclick="window.location.reload()"
+    onmouseover="changeTextColor();"
+    >BUY MORE TICKETS</button> 
+  </details>
+<br>
+<br>
+  <div id="footer">
+    <p> © 2025 | Submitted by: Ashley Rose C. Gozum | 9-Emerald</p>
+    </div>
+  </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+.container {
+	background-color:whitesmoke ;
+	padding: 15px;
+	border: 5px solid black;
+	border-radius: 8px;
+	box-shadow: 4px 5px 5px 0px rgba(0,0,0,0.75);
+	font-family:times new roman;
+	max-width: 500px;
+}
+
+h1 {
+	text-align: center;
+	background-color: blueviolet;
+	border-radius: 8px;
+}
+
+summary {
+	background-color: lightpink;
+	border-radius: 5px;
+	max-width: 140px;
+}
+
+#footer {
+    background-color:black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+#footer p{
+	color: whitesmoke;
+	margin: 0;
+	font-family: Times New Roman;
+	text-align: center;
+}
+
